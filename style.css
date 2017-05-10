@@ -54,30 +54,56 @@ div {
 }
 header {
 	position: fixed;
+	width: 80%;
+}
+#container{
+	background: gold;
+	padding-right: 5%;
+	padding-left: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	height:100%;
 }
 #left_nav {
 	float: left;
-	width: 400px;
+	width: 150px;
 }
 .nav_element {
 	width: 100px;
 	background-color: green;
+	display: inline;
+}
+#logo {
+	display: block;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.article{
+	background-color: steelblue;
+	width: 10rem;
+	display: inline;
+
 }
 #section {
 
 }
-
-#logo{
-	width: 100px;
-}
 #right_nav {
+	display: inline-block;
 	float: right;
 }
 #related_article_bar{
 	clear: both;
 }
+#spacer{
+	width:100%;
+	height:50px;
+}
+#category{
+	clear: both;
+	background-color: #F1F1F1;
+}
 #article{
-	display: inline;
 }
 * {
 	border: 1px red solid !important;
