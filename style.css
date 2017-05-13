@@ -48,14 +48,11 @@ table {
 }
 
 /* my code */
-
-header {
-	position: fixed;
-	width: 80%;
-}
-#three_lines_icon{
-	width: 50px;
-	background-image: url(https://cdn.pixabay.com/photo/2017/05/05/11/37/insect-2286749_960_720.jpg);
+#left_div{
+	float left
+	background-color: blue;
+	height: 100%;
+	width: 10%;
 }
 #container{
 	padding-right: 5%;
@@ -63,24 +60,64 @@ header {
 	margin-left: 5%;
 	margin-right: 5%;
 	height:100%;
+	display: inline-block;
+
+}
+header {
+	position: fixed;
+	width: 80%;
+	background-color: white;
+}
+button {
+	padding: 6px 6px;
+	margin: 0px;
+	border-radius: 3px;
+}
+.white_button:hover {
+	background-color: #F5F5F5;
+}
+#hamburger_menu {
+	width: 115px;
+	position: relative;
+	border: 1px lightgrey solid;
+    box-shadow: 0 3px 2px 0px rgba(0,0,0,0.06), inset -1px -1px 1px 0 rgba(0,0,0,0.02);
+    left: -15px;
 }
 #left_nav {
 	margin-top: 10px;
 	float: left;
-	width: 250px;
+	width: 500px;
 }
 .nav_element {
-	width: 100px;
+	text-transform: capitalize;
+	display: inline;
+	text-decoration: none;
+	background-color: transparent;
+	border: none;
+	font-size: 0.6875rem;
+}
+.left_nav_element {
 	display: inline;
 	font-family: "Arial Black", Gadget, sans-serif;
-	font-size: 11px;
 	text-decoration: none;
+	background-color: transparent;
 }
 #logo {
 	position: absolute;
 	display: block;
 	left: 40%;
 	top: 10px;
+}
+.blue_button {
+	padding: 10px 9px;
+    font-family: "nyt-franklin",arial,helvetica,sans-serif;
+    background-color: #6288a5;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.blue_button:hover {
+	background-color: #4d7b9f;
 }
 #related_article_bar {
 	clear: both;
@@ -91,9 +128,12 @@ header {
 .article_bar_tag {
 	font-size: .55rem;
 	text-transform: uppercase;
-	height: 15px;
+	height: 10px;
+	width: 140px;
 	margin-bottom: 0px;
-	background-color: blue;
+	float: left;
+	padding-top: 5px;
+	padding-bottom: 0px;
 }
 .article_bar_pic{
 	float: left;
@@ -101,7 +141,10 @@ header {
 .article {
 	float: left;
 	display: block;
+	height: 80px;
 	width: 222px;
+	border-right: solid 1px grey;
+	padding-left: 5px;
 }
 .article_link {
 	text-decoration: none;
@@ -115,11 +158,19 @@ header {
 }
 #spacer{
 	width:100%;
-	height:125px;
+	height:130px;
 }
 #category{
 	clear: both;
 }
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+}
+#article_picture{
+	height: 632.18px;
+	width: 1125px;
+ }
 .icon {
     background-image: url(https://a1.nyt.com/assets/article/20170424-182737/images/sprite/sprite-no-repeat.svg);
   	display: inline-block;
@@ -138,4 +189,11 @@ header {
 
 .icon-search {
   	background-position: -357px -215px;
+}
+.icon-gear {
+    background-position: -494px -214px;
+}
+
+
+* {
 }
