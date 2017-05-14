@@ -49,19 +49,23 @@ table {
 
 /* my code */
 #left_div{
-	float left
-	background-color: blue;
+	float: left;
 	height: 100%;
 	width: 10%;
+	position: fixed;
+	border-right: 1px silver solid;
+	box-shadow: inset -3px 0px 2px 0px rgba(0,0,0,0.06);
+}
+#left_div:hover {
+	cursor: pointer;
 }
 #container{
-	padding-right: 5%;
-	padding-left: 5%;
+	padding-right: 5.2%;
+	padding-left: 5.2%;
 	margin-left: 5%;
 	margin-right: 5%;
 	height:100%;
 	display: inline-block;
-
 }
 header {
 	position: fixed;
@@ -76,12 +80,19 @@ button {
 .white_button:hover {
 	background-color: #F5F5F5;
 }
+.pointer {
+	cursor: pointer;
+}
 #hamburger_menu {
 	width: 115px;
 	position: relative;
 	border: 1px lightgrey solid;
     box-shadow: 0 3px 2px 0px rgba(0,0,0,0.06), inset -1px -1px 1px 0 rgba(0,0,0,0.02);
     left: -15px;
+    background-color: white;
+}
+#hamburger_menu:hover {
+	background-color: #F5F5F5;
 }
 #left_nav {
 	margin-top: 10px;
