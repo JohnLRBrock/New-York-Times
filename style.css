@@ -187,8 +187,7 @@ button {
 	max-width: 100%;
 	height: auto;
 }
-
-#category{
+#category {
 	clear: both;
 }
 h1 {
@@ -196,6 +195,15 @@ h1 {
 	font-weight: bold;
 	border-bottom: 1px solid #e2e2e2;
 	padding-bottom: 10px;
+}
+#author_and_date {
+	float: left;
+}
+#author {
+	display: inline;
+}
+.date {
+	display: inline;
 }
 #article_picture{
 	height: 632.18px;
@@ -208,7 +216,14 @@ h1 {
   	vertical-align: middle;
   	width: 16px;
 }
-
+.share-icon {
+    background-image: url(https://a1.nyt.com/assets/article/20170424-182737/images/sprite/sprite-no-repeat.svg);
+  	display: inline-block;
+  	height: 25px;
+  	vertical-align: middle;
+  	width: 25px;
+  	text-decoration: none;
+}
 .icon-bars {
   	background-position: -444px -215px;
 }
@@ -216,12 +231,45 @@ h1 {
 .icon-logo {
   	background-position: -51px -280px;
 }
-
 .icon-search {
   	background-position: -357px -215px;
 }
 .icon-gear {
     background-position: -494px -214px;
+}
+#icon_bank {
+	margin: 17px 0 0 0;
+	float: right;
+}
+#share_icons {
+	border-right: 1px solid #e2e2e2;
+	float: left;
+	margin: 0 10px 0 0;
+}
+#bookmark_and_comment_icon {
+	float: right;
+}
+.icon-facebook {
+	background-position: -33px -54px;
+}
+.icon-twitter {
+	background-position: -26px -313px;
+}
+.icon-email {
+	background-position: -183px -21px;
+}
+.icon-share {
+	background-position: -243px -247px;
+}
+.icon-bookmark {
+	width: 16px;
+	background-position: -306px -214px;
+	position: relative;
+	bottom: 20px;
+}
+.icon-comment {
+	position: relative;
+	bottom: 3px;
 }
 #right_div{
 	z-index: 10000;
