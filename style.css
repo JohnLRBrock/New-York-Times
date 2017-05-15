@@ -143,29 +143,40 @@ button {
 }
 #related_article_bar {
 	width: 2000px;
+	height: 89px;
 	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #ccc;
 	padding: 5px 0 0 0;
+	box-shadow: 0px 4px 4px rgba(0,0,0,.06);
+	position: relative;
+	left: -4px;
+}
+.article-bar-text {
+	left: 50px;
+	width: 250px;
+	padding: 0 0;
+	margin: 0 0;
 }
 .article_bar_tag {
 	font-size: .55rem;
 	text-transform: uppercase;
 	height: 10px;
-	width: 140px;
 	margin-bottom: 0px;
-	float: left;
 	padding-top: 5px;
 	padding-bottom: 0px;
 }
 .article_bar_pic{
 	float: left;
+	padding: 5px;
+	margin: 0 5px;
 }
 .article {
 	float: left;
 	display: block;
 	height: 80px;
-	width: 222px;
+	width: 250px;
 	border-right: 1px solid #e2e2e2;
-	padding-left: 5px;
+	padding-right: 5px;
 }
 .article_link {
 	text-decoration: none;
@@ -179,8 +190,8 @@ button {
 }
 .content {
 	width: 55%;
-	margin: 0 5%;
-	padding: 0 7%;
+	margin: 0 12%;
+	padding: 0 0;
 	border-top: 1px solid #0F0F0F;
 }
 .content img {
@@ -227,7 +238,6 @@ h1 {
 .icon-bars {
   	background-position: -444px -215px;
 }
-
 .icon-logo {
   	background-position: -51px -280px;
 }
@@ -256,7 +266,7 @@ h1 {
 	background-position: -26px -313px;
 }
 .icon-email {
-	background-position: -183px -21px;
+	background-position: -131px -21px;
 }
 .icon-share {
 	background-position: -243px -247px;
@@ -281,6 +291,4 @@ h1 {
 	top: 0;
 	right: 0;
 	position: fixed;
-}
-* {
 }
